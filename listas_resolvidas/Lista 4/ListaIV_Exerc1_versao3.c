@@ -1,0 +1,21 @@
+/*QUESTÃO 01:
+Dado um número inteiro N, fazer um programa que exiba os números pares iguais ou inferiores 
+a N. */
+
+#include <stdio.h>
+
+int main ()
+{
+	//Declaração de variáveis
+	int N, y;
+	
+	//Leitura dos dados de entrada
+	printf ("Entre com um numero inteiro: ");
+	scanf ("%d", &N);
+	
+	//exibindo os pares inferiores ou iguais a N
+	for (y=2;y<=N;y+=2)
+	{
+		printf ("%d ", y);
+	}
+}
